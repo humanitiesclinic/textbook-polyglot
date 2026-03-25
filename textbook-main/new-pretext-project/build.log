@@ -1,0 +1,89 @@
+Generated `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/codechat_config.yaml`
+
+Generated `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/.gitignore`
+
+Generated `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/.devcontainer.json`
+
+Generated `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/requirements.txt`
+
+Generated `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/.github/workflows/pretext-cli.yml`
+
+PreTeXt-CLI version: 2.7.0
+
+PreTeXt project found in `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project`.
+Building target web
+Preparing to build into /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/output/web.
+discovering source file's directory name: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source
+verifying and expanding input directory: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/../generated-assets
+input directory expanded to absolute path: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/generated-assets
+verifying and expanding input directory: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/../assets
+input directory expanded to absolute path: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/assets
+Runestone Services (via PreTeXt repository): version 7.3.3
+Runestone Services (using newer, via online CDN query): version 7.11.19
+Using existing Runestone Services located in /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/output/web/_static. Delete Runestone files there to force a fresh download.
+converting /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/main.ptx to HTML in /var/folders/1_/9xmrx8f56ds85pd6k3w44slh0000gn/T/ptx-5_uouxl9
+XSL conversion of /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/main.ptx by /Users/user/.ptx/2.7.0/core/xsl/pretext-html.xsl
+successful application of /Users/user/.ptx/2.7.0/core/xsl/pretext-html.xsl
+/usr/local/lib/python3.12/site-packages/pretext/codechat.py:94: FutureWarning: This search incorrectly ignores the root element, and will be fixed in a future version.  If you rely on the current behaviour, change it to './/*[@{http://www.w3.org/XML/1998/namespace}id]'
+  for elem in src_tree.iterfind(f"//*[@{xml_id_attrib}]"):  # type: ignore
+
+Success! Run `pretext view` to see the results.
+
+
+Generated `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/codechat_config.yaml`
+
+Generated `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/.gitignore`
+
+Generated `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/.devcontainer.json`
+
+Generated `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/requirements.txt`
+
+Generated `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/.github/workflows/pretext-cli.yml`
+
+PreTeXt-CLI version: 2.7.0
+
+PreTeXt project found in `/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project`.
+Building target epub
+Preparing to build into /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/output/epub.
+Attempting to install/update required node packages.
+npm warn deprecated mathjax-full@3.2.2: Version 4 replaces this package with the scoped package @mathjax/src
+
+added 34 packages, and audited 35 packages in 11s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New major version of npm available! 10.9.4 -> 11.12.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.0
+npm notice To update run: npm install -g npm@11.12.0
+npm notice
+converting /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/main.ptx into EPUB in /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/output/epub with math as svg
+discovering source file's directory name: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source
+converting LaTeX from /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/main.ptx into svg format
+XSL conversion of /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/main.ptx by /Users/user/.ptx/2.7.0/core/xsl/support/extract-math.xsl
+successful application of /Users/user/.ptx/2.7.0/core/xsl/support/extract-math.xsl
+XSL conversion of /var/folders/1_/9xmrx8f56ds85pd6k3w44slh0000gn/T/ptx-ddmwv1wf/mj-output-svg.html by /Users/user/.ptx/2.7.0/core/xsl/support/package-math.xsl
+successful application of /Users/user/.ptx/2.7.0/core/xsl/support/package-math.xsl
+XML file of math representations deposited as /var/folders/1_/9xmrx8f56ds85pd6k3w44slh0000gn/T/ptx-1o4lbz9y/math-representations-svg.xml
+converting LaTeX from /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/main.ptx into speech format
+XSL conversion of /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/main.ptx by /Users/user/.ptx/2.7.0/core/xsl/support/extract-math.xsl
+successful application of /Users/user/.ptx/2.7.0/core/xsl/support/extract-math.xsl
+XSL conversion of /var/folders/1_/9xmrx8f56ds85pd6k3w44slh0000gn/T/ptx-02z8xop_/mj-output-speech.html by /Users/user/.ptx/2.7.0/core/xsl/support/package-math.xsl
+successful application of /Users/user/.ptx/2.7.0/core/xsl/support/package-math.xsl
+XML file of math representations deposited as /var/folders/1_/9xmrx8f56ds85pd6k3w44slh0000gn/T/ptx-1o4lbz9y/math-representations-speech.xml
+converting source (/Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/main.ptx) and clean representations (/var/folders/1_/9xmrx8f56ds85pd6k3w44slh0000gn/T/ptx-1o4lbz9y/math-representations-svg.xml) into EPUB files
+XSL conversion of /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/source/main.ptx by /Users/user/.ptx/2.7.0/core/xsl/pretext-epub.xsl
+successful application of /Users/user/.ptx/2.7.0/core/xsl/pretext-epub.xsl
+attempting to construct cover image using LaTeX and ImageMagick
+[33mwarning: [0mfailed to construct cover image using LaTeX and ImageMagick
+attempting to construct cover image using "Arial.ttf" and "Arial Bold.ttf"
+[33mwarning: [0mfailed to construct cover image using "Arial.ttf" and "Arial Bold.ttf"
+attempting to construct crude bitmap font cover image
+packaging an EPUB temporarily as How_To_Be_Multilingual_FAST-svg.epub
+EPUB file deposited as /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/textbook-main/new-pretext-project/output/epub/main.epub
+
+Success! Run `pretext view` to see the results.
+
+
