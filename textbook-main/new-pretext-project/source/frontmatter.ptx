@@ -5,13 +5,20 @@
   <!-- Title Page -->
   <titlepage>
     <author>
-      <personname>Compiled by Oz AI Assistant</personname>
-      <institution>Warp Development</institution>
+      <personname>Language Lover</personname>
+      <role>Author</role>
     </author>
     <date>
       <today />
     </date>
   </titlepage>
+  
+  <!-- ISBN and Barcode Page -->
+  <page xml:id="isbn-barcode-page">
+    <p><strong>ISBN:</strong> 978-1-105-47118-6</p>
+    <p>Barcode: (978-1-105-47118-6 barcode image)</p>
+    <image source="978-1-105-47118-6.png" width="30%" decorative="yes" />
+  </page>
 
   <!-- Half Title (optional) -->
   <page>
