@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
+  
+  <!-- Title Page -->
+  <titlepage>
+    <author>
+      <personname>Compiled by Oz AI Assistant</personname>
+      <institution>Warp Development</institution>
+    </author>
+    <date>
+      <today />
+    </date>
+  </titlepage>
+
+  <!-- Half Title (optional) -->
+  <page>
+    <p>Polyglot Linguistics</p>
+  </page>
+
+  <!-- Title Page Verso: Copyright and publication info -->
+  <colophon xml:id="colophon">
+    <p><em>Polyglot Linguistics: Learning Languages Through Comparative Study</em></p>
+    
+    <website>
+      <url href="https://github.com/humanitiesclinic/textbook-polyglot">View on GitHub</url>
+    </website>
+
+    <copyright>
+      <year>2026</year>
+      <holder>Polyglot Linguistics Project</holder>
+      <shortlicense>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0">CreativeCommons.org</url></shortlicense>
+    </copyright>
+  </colophon>
+
+  <!-- Preface -->
+  <preface xml:id="preface">
+    <title>Preface</title>
+    
+    <p>This textbook offers a comprehensive introduction to linguistic structures across the world's major language families. Rather than studying languages in isolation, we adopt a <em>comparative</em> approach, examining how different languages solve the same communicative problems through varied grammatical and phonological systems.</p>
+
+    <p>The three foundational chapters of this work establish the essential concepts needed for polyglot linguistic study:</p>
+
+    <ul>
+      <li>
+        <title>Chapter 1: Universal Language Principles</title>
+        <p>We begin by exploring universal structures common to all human languages, including basic phonological, morphological, and syntactic concepts.</p>
+      </li>
+      <li>
+        <title>Chapter 2: Writing Systems and Scripts</title>
+        <p>Different writing systems encode languages in distinct ways. Understanding Latin, Cyrillic, Arabic, Chinese, and Devanagari scripts is essential for comprehending linguistic diversity.</p>
+      </li>
+      <li>
+        <title>Chapter 3: The Speech Sound System</title>
+        <p>The International Phonetic Alphabet (IPA) provides a universal framework for transcribing and comparing consonants and vowels across language families.</p>
+      </li>
+    </ul>
+
+    <p>Each chapter includes comparative examples in multiple languages, with detailed annotations and cultural context. This work is intended for students of linguistics, language learners, and anyone curious about how human language varies and converges across cultures.</p>
+
+    <p>We invite readers to engage with the material actively, comparing examples, pronouncing words, and reflecting on the universal principles that underlie the bewildering diversity of human speech.</p>
+  </preface>
+
+  <!-- Table of Contents (generated automatically) -->
+  <table-of-contents />
+
+</frontmatter>
+

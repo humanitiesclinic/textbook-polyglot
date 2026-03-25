@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- Document metadata -->
+  <xi:include href="./docinfo.ptx" />
+
+  <book xml:id="polyglot-linguistics">
+    <title>Polyglot Linguistics</title>
+    <subtitle>Learning Languages Through Comparative Study</subtitle>
+
+    <!-- Front Matter: Includes titlepage, preface, colophon, TOC -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <!-- Main Content: Three chapters -->
+    <xi:include href="./ch01-foundations.ptx" />
+    <xi:include href="./ch02-writing-systems.ptx" />
+    <xi:include href="./ch03-speech-sounds.ptx" />
+
+    <!-- Back Matter: Appendices, glossary, index -->
+    <xi:include href="./backmatter.ptx" />
+
+  </book>
+</pretext>

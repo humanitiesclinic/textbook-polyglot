@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
+  <title>Backmatter</title>
+
+  <!-- Appendix A: International Phonetic Alphabet (IPA) Chart -->
+  <appendix xml:id="app-ipa-chart">
+    <title>International Phonetic Alphabet (IPA) Chart</title>
+    
+    <introduction>
+      <p>The International Phonetic Alphabet (IPA) is a standardized system for transcribing the sounds of human speech. This appendix provides a reference guide to the IPA symbols used throughout this textbook.</p>
+    </introduction>
+
+    <section xml:id="app-ipa-consonants">
+      <title>IPA Consonants</title>
+      <p>Consonants are organized by place of articulation (columns) and manner of articulation (rows):</p>
+      <ul>
+        <li>Bilabial: [p], [b], [m], [w]</li>
+        <li>Alveolar: [t], [d], [n], [l], [r], [s], [z]</li>
+        <li>Palatal: [c], [ɟ], [ɲ], [j]</li>
+        <li>Velar: [k], [g], [ŋ]</li>
+        <li>Fricatives: [f], [v], [θ], [ð], [ʃ], [ʒ], [x], [ɣ], [h]</li>
+        <li>Affricates: [tʃ], [dʒ]</li>
+      </ul>
+    </section>
+
+    <section xml:id="app-ipa-vowels">
+      <title>IPA Vowels</title>
+      <p>Vowels are organized by tongue height (vertical) and front-to-back position (horizontal):</p>
+      <ul>
+        <li>Front: [i], [e], [ɛ], [æ]</li>
+        <li>Central: [ə], [ʌ], [ɑ]</li>
+        <li>Back: [u], [o], [ɔ]</li>
+      </ul>
+    </section>
+  </appendix>
+
+  <!-- Appendix B: Language Family Overview -->
+  <appendix xml:id="app-language-families">
+    <title>Major Language Families Reference</title>
+    
+    <introduction>
+      <p>Human languages are classified into families based on historical relationships. This appendix provides a quick reference to the major language families discussed in this textbook.</p>
+    </introduction>
+
+    <section xml:id="app-indo-european">
+      <title>Indo-European Family</title>
+      <p>The largest language family, spoken by approximately 3 billion people. Major branches include Romance, Germanic, Slavic, Indo-Iranian, and Celtic.</p>
+      <ul>
+        <li><em>Romance:</em> Spanish, French, Italian, Portuguese, Romanian</li>
+        <li><em>Germanic:</em> English, German, Dutch, Swedish, Danish</li>
+        <li><em>Slavic:</em> Russian, Polish, Czech, Ukrainian, Bulgarian</li>
+      </ul>
+    </section>
+
+    <section xml:id="app-sino-tibetan">
+      <title>Sino-Tibetan Family</title>
+      <p>The second-largest language family by speaker count, primarily in East Asia.</p>
+      <ul>
+        <li><em>Sinitic:</em> Mandarin Chinese, Cantonese, Min, Wu, Xiang</li>
+        <li><em>Tibeto-Burman:</em> Tibetan, Burmese, Lisu</li>
+      </ul>
+    </section>
+
+    <section xml:id="app-semitic">
+      <title>Afro-Asiatic Family (Semitic Branch)</title>
+      <p>Spoken across the Middle East and North Africa.</p>
+      <ul>
+        <li><em>Arabic, Hebrew, Amharic, Tigrinya</em></li>
+      </ul>
+    </section>
+  </appendix>
+
+  <!-- Appendix C: Glossary of Linguistic Terms -->
+  <appendix xml:id="app-glossary">
+    <title>Glossary of Linguistic Terms</title>
+    
+    <introduction>
+      <p>This glossary defines key linguistic terminology used throughout the textbook.</p>
+    </introduction>
+
+    <dl>
+      <li>
+        <title>Affricate</title>
+        <p>A consonant sound that begins as a stop and releases as a fricative (e.g., [tʃ] in <foreign>ch</foreign>).</p>
+      </li>
+      <li>
+        <title>Allophone</title>
+        <p>A variant pronunciation of a phoneme that does not change meaning (e.g., the different pronunciations of [r] in English).</p>
+      </li>
+      <li>
+        <title>Aspiration</title>
+        <p>A puff of air that follows the release of a consonant (e.g., [pʰ] in English <foreign>pin</foreign>).</p>
+      </li>
+      <li>
+        <title>Consonant Cluster</title>
+        <p>Two or more consonant sounds that occur together (e.g., [str] in <foreign>string</foreign>).</p>
+      </li>
+      <li>
+        <title>Fricative</title>
+        <p>A consonant sound produced by air friction through a narrow channel (e.g., [f], [s], [ʃ]).</p>
+      </li>
+      <li>
+        <title>IPA (International Phonetic Alphabet)</title>
+        <p>A standardized system of phonetic notation used to represent all sounds in all languages.</p>
+      </li>
+      <li>
+        <title>Morpheme</title>
+        <p>The smallest meaningful unit of language (e.g., <foreign>re-</foreign> in <foreign>retake</foreign>).</p>
+      </li>
+      <li>
+        <title>Phoneme</title>
+        <p>The smallest unit of sound that distinguishes meaning in a language (e.g., [p] and [b] in English).</p>
+      </li>
+      <li>
+        <title>Transcription</title>
+        <p>The representation of spoken language in written form using phonetic symbols.</p>
+      </li>
+      <li>
+        <title>Voicing</title>
+        <p>The vibration of the vocal cords during sound production (e.g., [b] is voiced, [p] is voiceless).</p>
+      </li>
+    </dl>
+  </appendix>
+
+  <!-- Index (auto-generated) -->
+  <index>
+    <title>Index</title>
+    <index-list />
+  </index>
+
+  <!-- Colophon: Publication information -->
+  <colophon xml:id="colophon-end">
+    <p>This book was authored in <pretext/>, a free and open-source authoring system for scholarly documents.</p>
+    <p>Source code available at <url href="https://github.com/humanitiesclinic/textbook-polyglot">github.com/humanitiesclinic/textbook-polyglot</url></p>
+    <p>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.</p>
+  </colophon>
+
+</backmatter>
+

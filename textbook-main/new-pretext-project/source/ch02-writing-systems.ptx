@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-writing-systems" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Writing Systems and Scripts</title>
+  <subtitle>How Languages Represent Sound in Visual Form</subtitle>
+
+  <introduction>
+    <p><idx>writing systems</idx>While all human languages are fundamentally spoken or signed, most modern languages also have writing systems—conventional ways of representing language visually. Different writing systems encode language in different ways: some represent individual sounds (alphabetic), some represent syllables (syllabic), and some represent words or morphemes (logographic). Understanding these systems is essential for polyglot linguists, as scripts reveal how different languages conceive of and organize their sound and meaning systems.</p>
+  </introduction>
+
+  <section xml:id="sec-writing-fundamentals">
+    <title>Fundamentals of Writing Systems</title>
+
+    <subsection xml:id="sec-what-is-writing">
+      <title>What is a Writing System?</title>
+
+      <p><idx><h>writing system</h><h>definition</h></idx>A writing system is a conventional set of symbols and rules for using them to represent language. Not all languages have writing systems, and writing systems are cultural inventions relatively recent in human history—while oral language is at least 50,000 years old, writing emerged only about 5,000 years ago.</p>
+
+      <p><idx>literacy</idx><idx>literate vs. oral traditions</idx>Societies with writing systems are often called <term>literate</term>, while those without are called <term>non-literate</term> or <term>oral</term>. However, non-literate does not mean unsophisticated—oral cultures have complex grammatical systems, vast vocabularies, and rich literary traditions transmitted through memory.</p>
+
+      <remark>
+        <title>The Origin of Writing</title>
+        <p>Writing did not develop from a single source. Different civilizations independently invented writing: cuneiform in Mesopotamia (~3100 BCE), Egyptian hieroglyphics (~3100 BCE), Chinese characters (~1200 BCE), Mesoamerican glyphs (~500 BCE), and Mayan script (~300 BCE). This independent invention suggests writing addresses fundamental human needs to record information across time and space.</p>
+      </remark>
+    </subsection>
+
+    <subsection xml:id="sec-unit-representation">
+      <title>Units of Representation</title>
+
+      <p>Writing systems differ in what linguistic unit they represent:</p>
+
+      <definition xml:id="def-phonological-units">
+        <statement>
+          <p><idx>phoneme-based systems</idx><term>Phonologically-based systems</term> represent sounds:</p>
+          <ul>
+            <li><idx>alphabetic scripts</idx><term>Alphabetic scripts</term> represent individual phonemes (e.g., Latin alphabet: a, b, c...)</li>
+            <li><idx>abjads</idx><term>Abjads</term> represent consonants but not vowels (e.g., Hebrew, Arabic)</li>
+            <li><idx>abugidas</idx><term>Abugidas</term> represent consonants with attached vowel marks (e.g., Devanagari, Thai, Khmer)</li>
+            <li><idx>syllabic scripts</idx><term>Syllabic scripts</term> represent whole syllables (e.g., Japanese hiragana, Cherokee)</li>
+          </ul>
+
+          <p><idx>morpheme-based systems</idx><term>Morphologically-based systems</term> represent meaningful units:</p>
+          <ul>
+            <li><idx>logographic scripts</idx><term>Logographic scripts</term> represent words or morphemes (e.g., Chinese characters, Egyptian hieroglyphics)</li>
+          </ul>
+        </statement>
+      </definition>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-alphabetic-scripts">
+    <title>Alphabetic Scripts: The Latin, Cyrillic, and Greek Alphabets</title>
+    <idx>alphabetic scripts</idx>
+
+    <introduction>
+      <p>Alphabetic scripts represent individual phonemes with separate symbols. The Latin alphabet, used for English, Spanish, French, and German (among others), is the world's most widely used script today.</p>
+    </introduction>
+
+    <subsection xml:id="sec-latin-alphabet">
+      <title>The Latin Alphabet</title>
+
+      <p><idx>Latin alphabet</idx>The Latin alphabet consists of 26 letters (A-Z) in English, though other Latin-based languages use additional letters with diacritics (accents, umlauts, tildes):</p>
+
+      <ul>
+        <li>Spanish adds ñ: <foreign>niño</foreign> (child)</li>
+        <li>French adds accents: <foreign>café</foreign>, <foreign>naïve</foreign></li>
+        <li>German adds umlauts: <foreign>schön</foreign> (beautiful), <foreign>Brüder</foreign> (brothers)</li>
+        <li>Czech and Polish add háčeks: <foreign>čeština</foreign> (Czech language), <foreign>żaba</foreign> (frog)</li>
+      </ul>
+
+      <p>Despite using the same basic alphabet, these languages map graphemes (written symbols) to phonemes differently. For example:</p>
+
+      <table xml:id="tbl-Latin-phoneme-mapping">
+        <title>Phonemic Values of 'C' in Different Languages</title>
+        <tabular>
+          <col halign="left" />
+          <col halign="left" />
+          <col halign="left" />
+          <row header="yes" bottom="medium">
+            <cell>Language</cell>
+            <cell>Letter C represents...</cell>
+            <cell>Example</cell>
+          </row>
+          <row>
+            <cell>English</cell>
+            <cell>[k] before a, o, u; [s] before e, i</cell>
+            <cell>cat [kæt], city [sɪti]</cell>
+          </row>
+          <row>
+            <cell>Spanish</cell>
+            <cell>[k] before a, o, u; [θ] before e, i (Spain) or [s] (Latin America)</cell>
+            <cell>casa [ˈkasa], cielo [θjélo]</cell>
+          </row>
+          <row>
+            <cell>French</cell>
+            <cell>[k] before a, o, u; [s] before e, i</cell>
+            <cell>car [kaʁ], ciel [sjɛl]</cell>
+          </row>
+          <row>
+            <cell>Italian</cell>
+            <cell>[k] before a, o, u; [tʃ] before e, i</cell>
+            <cell>casa [ˈkaza], cena [ˈtʃena]</cell>
+          </row>
+        </tabular>
+      </table>
+
+      <p>This example illustrates a key principle: the relationship between writing and sound is not universal but rather language-specific.</p>
+    </subsection>
+
+    <subsection xml:id="sec-cyrillic-alphabet">
+      <title>The Cyrillic Alphabet</title>
+
+      <p><idx>Cyrillic alphabet</idx>The Cyrillic alphabet was created in the 9th century to write Slavic languages, and is now used for Russian, Bulgarian, Serbian, Ukrainian, and other languages. It contains 33 letters in Russian:</p>
+
+      <ul>
+        <li>Cyrillic А (a) - <foreign>дом</foreign> (dom, house)</li>
+        <li>Cyrillic Б (b) - <foreign>брат</foreign> (brat, brother)</li>
+        <li>Cyrillic Г (g) - <foreign>гласный</foreign> (glasnyj, vowel)</li>
+      </ul>
+
+      <p>Many Cyrillic letters look like Latin letters but represent different sounds, which can confuse English readers. For example, Cyrillic В looks like Latin B but represents [v], and Cyrillic Р looks like Latin P but represents [r].</p>
+
+      <remark>
+        <title>Historical Connection</title>
+        <p>Cyrillic was derived from the Greek alphabet and adapted for Slavic languages. Both Cyrillic and Latin alphabets trace back through Greek to the Phoenician alphabet, one of the earliest alphabetic writing systems (around 1000 BCE).</p>
+      </remark>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-abjads-abugidas">
+    <title>Abjads and Abugidas: Consonant-Based and Vowel-Marking Systems</title>
+
+    <subsection xml:id="sec-abjads">
+      <title>Abjads: Arabic and Hebrew</title>
+
+      <p><idx>abjads</idx><term>Abjads</term> represent consonants but leave vowels unmarked (or use optional marks). This works well for Semitic languages like Arabic and Hebrew, where word roots consist of three consonants with vowels filling in the rest.</p>
+
+      <p><idx>Arabic script</idx>The Arabic alphabet has 28 letters and is written right-to-left. It represents only consonants and emphatic consonants, along with three consonantal glides that can function as vowels:</p>
+
+      <ul>
+        <li>Arabic <foreign>كتب</foreign> (k-t-b) without diacritics is ambiguous: it could be <foreign>kataba</foreign> (he wrote), <foreign>kutiba</foreign> (it was written), or <foreign>kutub</foreign> (books)—all from the same consonantal root.</li>
+        <li>With vowel marks (diacritics), it becomes unambiguous: <foreign>كتَبَ</foreign> (kataba) vs. <foreign>كُتِبَ</foreign> (kutiba) vs. <foreign>كتُب</foreign> (kutub).</li>
+      </ul>
+
+      <p>In formal written Arabic (news, literature), vowel marks are usually omitted, relying on context and reader knowledge of the language.</p>
+
+      <p><idx>Hebrew script</idx>Hebrew also uses an abjadic system with 22 letters representing consonants. Modern Hebrew often adds diacritics (<foreign>niqud</foreign>) for vowels:</p>
+
+      <ul>
+        <li>Hebrew <foreign>בנה</foreign> (b-n-h) with diacritics becomes <foreign>בָּנָה</foreign> (baná, he built)</li>
+      </ul>
+    </subsection>
+
+    <subsection xml:id="sec-abugidas">
+      <title>Abugidas: Devanagari, Thai, and Khmer</title>
+
+      <p><idx>abugidas</idx><term>Abugidas</term> (also called alphasyllabaries) represent consonants as primary symbols with attached vowel marks. Each consonant implicitly carries a default vowel (usually [ə] or [a]), and other vowels are marked with diacritics.</p>
+
+      <p><idx>Devanagari</idx><term>Devanagari</term>, used for Sanskrit, Hindi, and Marathi, is a well-known abugida:</p>
+
+      <ul>
+        <li>The letter क (ka) represents the consonant [k] plus the vowel [a]</li>
+        <li>To change the vowel, marks are added: कि (ki), कु (ku), के (ke)</li>
+        <li>To write a consonant without a vowel, a special mark (्) is used: क् (k with no vowel)</li>
+      </ul>
+
+      <p><idx>Thai script</idx><term>Thai script</term> is another abugida with a similar structure:</p>
+
+      <ul>
+        <li>The letter ก represents [k] plus default [a]</li>
+        <li>Tone marks are placed above or below the consonant: ก่ า (kà, falling tone), ก้า (ká, high tone)</li>
+        <li>Thai is particularly interesting for its tone marks, which represent tonal differences essential in Sino-Tibetan and Southeast Asian languages</li>
+      </ul>
+
+      <remark>
+        <title>Efficiency of Abugidas</title>
+        <p>Abugidas are extremely efficient for languages with simple syllable structures (CV, CVC) because they reduce the number of symbols needed while still capturing all phonologically relevant information. This makes them practical for writing without using as many distinct symbols as logograms require.</p>
+      </remark>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-syllabic-scripts">
+    <title>Syllabic Scripts: Japanese Hiragana and Katakana</title>
+    <idx>syllabic scripts</idx>
+
+    <p><idx>Japanese writing system</idx>Japanese is unique in using three writing systems simultaneously: hiragana, katakana, and kanji (Chinese characters). The first two are syllabic:</p>
+
+    <subsection xml:id="sec-hiragana">
+      <title>Hiragana: Native Japanese Syllables</title>
+
+      <p><idx>hiragana</idx><term>Hiragana</term> is a syllabic script with 46 basic characters, each representing a consonant-vowel combination:</p>
+
+      <ul>
+        <li>あ (a), い (i), う (u), え (e), お (o) - vowels alone</li>
+        <li>か (ka), き (ki), く (ku), け (ke), こ (ko) - [k] + vowels</li>
+        <li>さ (sa), し (shi/si), す (su), せ (se), そ (so) - [s] + vowels</li>
+      </ul>
+
+      <p>Hiragana is used for native Japanese words, grammatical markers, and informal writing:</p>
+
+      <p><foreign>あ、日本語を勉強しています。</foreign> (Ah, nihongo wo benkyou shite imasu. I am studying Japanese.)</p>
+    </subsection>
+
+    <subsection xml:id="sec-katakana">
+      <title>Katakana: Foreign Words and Special Use</title>
+
+      <p><idx>katakana</idx><term>Katakana</term> uses the same syllabic system as hiragana but with different character shapes. It is used primarily for:</p>
+
+      <ul>
+        <li>Foreign loanwords: <foreign>コンピューター</foreign> (konpyūtā, computer), <foreign>テレビ</foreign> (terebi, television)</li>
+        <li>Onomatopoeia: <foreign>キラキラ</foreign> (kirakira, sparkling), <foreign>バタバタ</foreign> (batabata, fluttering)</li>
+        <li>Emphasis or stylistic effect</li>
+      </ul>
+
+      <p>This three-way system (hiragana for native words, katakana for foreign words, kanji for roots) allows Japanese readers to quickly identify word categories and language origins.</p>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-logographic-scripts">
+    <title>Logographic Scripts: Chinese Characters</title>
+    <idx>logographic scripts</idx>
+
+    <p><idx>Chinese characters</idx><term>Chinese characters</term> (Hanzi) represent words or morphemes rather than sounds. This is a fundamentally different approach from alphabetic or syllabic systems.</p>
+
+    <subsection xml:id="sec-character-structure">
+      <title>Structure and Etymology of Chinese Characters</title>
+
+      <p>Chinese characters evolved from pictographs (pictures of objects) and ideographs (abstract representations of ideas). Modern characters are composed of radicals (recurring components) that often indicate meaning:</p>
+
+      <ul>
+        <li>日 (rì, sun) - a pictograph of the sun</li>
+        <li>月 (yuè, moon) - a pictograph of the moon</li>
+        <li>木 (mù, tree) - a pictograph of a tree</li>
+        <li>火 (huǒ, fire) - a pictograph of flames</li>
+      </ul>
+
+      <p>These basic characters combine to form more complex ones:</p>
+
+      <ul>
+        <li>日 + 月 = 明 (míng, bright, luminous)</li>
+        <li>木 + 木 = 林 (lín, forest)</li>
+        <li>木 + 木 + 木 = 森 (sēn, dense forest)</li>
+        <li>火 + 火 = 炎 (yán, flames)</li>
+      </ul>
+
+      <p>There are 214 traditional radicals used to organize characters in dictionaries. Knowing the radical helps readers guess at a character's meaning, even if they don't know its pronunciation.</p>
+
+      <remark>
+        <title>The Radical System</title>
+        <p>Every Chinese character contains one primary radical (usually the left side or top). Characters are organized in dictionaries by radical plus additional strokes. For example, characters related to water (水 / 氵) include: 水 (water), 河 (river), 海 (sea), 溪 (stream), 冰 (ice).</p>
+      </remark>
+    </subsection>
+
+    <subsection xml:id="sec-character-count">
+      <title>How Many Characters Are Needed?</title>
+
+      <p>A major challenge with logographic writing is the sheer number of characters required. Modern Chinese texts typically use:</p>
+
+      <ul>
+        <li>2,000-3,000 characters for basic literacy (newspapers, everyday writing)</li>
+        <li>8,000-10,000 characters for educated readers (literature, classical texts)</li>
+        <li>50,000+ characters exist in comprehensive dictionaries, though many are archaic or rare</li>
+      </ul>
+
+      <p>This complexity is why simplification campaigns have been important: <term>Simplified Chinese</term> (used in mainland China) reduced stroke counts and complexity, while <term>Traditional Chinese</term> (used in Taiwan and Hong Kong) preserves more strokes and detail.</p>
+
+      <definition xml:id="def-simplified-traditional">
+        <statement>
+          <p><term>Simplified Chinese</term> example: 爱 (ài, love) - simplified version</p>
+          <p><term>Traditional Chinese</term> example: 愛 (ài, love) - traditional version with more strokes</p>
+        </statement>
+      </definition>
+
+      <p>Despite its complexity, the logographic system has advantages: readers can understand texts across multiple languages (since characters often have the same meaning in Japanese, Korean, and Vietnamese as they do in Chinese) and can sometimes infer meaning from character structure.</p>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-unicode-polyglotism">
+    <title>Unicode and Modern Polyglot Writing</title>
+    <idx>Unicode</idx>
+
+    <p>Modern digital communication requires a unified standard for encoding all world writing systems. <term>Unicode</term> is an international encoding standard that assigns a unique numerical value (called a code point) to every character in the world's writing systems.</p>
+
+    <ul>
+      <li>Latin A = U+0041</li>
+      <li>Greek Α (alpha) = U+0391</li>
+      <li>Cyrillic А (a) = U+0410</li>
+      <li>Devanagari अ (a) = U+0905</li>
+      <li>Chinese 中 (zhōng, middle) = U+4E2D</li>
+      <li>Arabic ا (alef) = U+0627</li>
+    </ul>
+
+    <p>Unicode currently includes over 150,000 characters, including scripts from all major writing systems, mathematical symbols, emoji, and special symbols. This allows polyglot writers to seamlessly combine text in multiple scripts within a single document.</p>
+
+    <remark>
+      <title>The Importance of Unicode for Linguistics</title>
+      <p>Before Unicode, writing systems were often assigned overlapping numerical values in computer systems, leading to corruption when documents were transferred between systems. Unicode solved this by providing a universal standard that preserves text integrity across all platforms and languages.</p>
+    </remark>
+  </section>
+
+  <conclusion>
+    <title>Chapter Summary</title>
+    <p>Different writing systems encode language in fundamentally different ways:</p>
+    <ul>
+      <li><term>Alphabetic systems</term> (Latin, Cyrillic, Greek) represent individual phonemes</li>
+      <li><term>Abjads</term> (Arabic, Hebrew) represent consonants without vowels</li>
+      <li><term>Abugidas</term> (Devanagari, Thai, Khmer) represent consonants with vowel marks</li>
+      <li><term>Syllabic systems</term> (Hiragana, Katakana) represent consonant-vowel combinations</li>
+      <li><term>Logographic systems</term> (Chinese characters) represent words or morphemes</li>
+    </ul>
+    <p>Understanding these differences illuminates how languages organize sound and meaning. Unicode has made polyglot writing possible, allowing us to study and compare languages from diverse writing traditions simultaneously.</p>
+  </conclusion>
+
+  <exercises xml:id="sec-ch2-exercises">
+    <title>Exercises</title>
+
+    <exercise xml:id="ex-ch2-script-type">
+      <title>Identifying Script Types</title>
+      <statement>
+        <p>For each of the following writing samples, identify the script type (alphabetic, abjad, abugida, syllabic, or logographic) and name the script:</p>
+        <ol>
+          <li>ΑΒΓΔ</li>
+          <li>คำหลัก</li>
+          <li>שלום</li>
+          <li>あいうえお</li>
+          <li>汉字</li>
+        </ol>
+      </statement>
+      <hint>
+        <p>Consider whether the symbols represent individual sounds, consonants only, consonants with vowel marks, whole syllables, or word meanings.</p>
+      </hint>
+    </exercise>
+
+    <exercise xml:id="ex-ch2-grapheme-phoneme">
+      <title>Grapheme-Phoneme Mismatches</title>
+      <statement>
+        <p>English has many cases where a single grapheme represents multiple phonemes (depending on context). Find examples of:</p>
+        <ol>
+          <li>The letter 'C' representing different sounds</li>
+          <li>The letter 'G' representing different sounds</li>
+          <li>A single vowel letter representing multiple vowel sounds</li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-ch2-chinese-radicals">
+      <title>Chinese Character Radicals</title>
+      <statement>
+        <p>If you have access to Chinese characters, identify the radicals in the following characters and explain how the radical might relate to the character's meaning:</p>
+        <ol>
+          <li>水 (water): What characters contain this radical?</li>
+          <li>木 (tree): What characters contain this radical?</li>
+          <li>心 (heart/mind): What characters contain this radical?</li>
+        </ol>
+      </statement>
+    </exercise>
+
+  </exercises>
+
+</chapter>

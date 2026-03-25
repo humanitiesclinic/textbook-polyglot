@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-speech-sounds" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Speech Sound System</title>
+  <subtitle>Phonetics and the International Phonetic Alphabet</subtitle>
+
+  <introduction>
+    <p><idx>phonetics</idx>While Chapter 1 introduced <em>phonology</em> (how sounds function meaningfully in a language), this chapter focuses on <em>phonetics</em>: the study of how sounds are physically produced and perceived. To compare sounds across languages, we need a universal system for transcribing and categorizing them. The <term>International Phonetic Alphabet</term> (IPA) provides exactly that framework.</p>
+
+    <p>In this chapter, we examine the anatomical and acoustic properties of consonants and vowels, learn the IPA system, and explore how different languages employ different subsets of the world's possible speech sounds.</p>
+  </introduction>
+
+  <section xml:id="sec-speech-anatomy">
+    <title>The Anatomy of Speech Production</title>
+
+    <introduction>
+      <p>Sound production involves the respiratory system (lungs), the larynx (voice box), and the vocal tract (throat, mouth, and nasal cavity). Understanding these anatomical components is essential for describing how sounds are articulated.</p>
+    </introduction>
+
+    <subsection xml:id="sec-airstream">
+      <title>Airstream Mechanisms</title>
+
+      <p><idx>airstream mechanism</idx>Most speech sounds use air flowing from the lungs, but some languages employ other airstream mechanisms:</p>
+
+      <ul>
+        <li><title>Pulmonic egressive</title>
+          <p>Air flows outward from the lungs (used in virtually all languages for normal speech).</p>
+        </li>
+        <li><title>Pulmonic ingressive</title>
+          <p>Air flows inward into the lungs. English speakers sometimes use this for affirmative clicking or gasping, but it's rare in formal phonemes.</p>
+        </li>
+        <li><title>Ejectives</title>
+          <p><idx>ejectives</idx>The vocal cords close, trapping air, which is then released explosively. Common in Caucasian languages (Georgian, Abkhaz) and some African languages (Amharic, Swahili). Examples: [p'], [t'], [k'].</p>
+        </li>
+        <li><title>Implosives</title>
+          <p><idx>implosives</idx>Air flows inward with a simultaneous closure. Found in many African languages (Sindhi, Zulu). Examples: [ɓ], [ɗ].</p>
+        </li>
+        <li><title>Clicks</title>
+          <p><idx>clicks</idx>A closure is released suddenly, creating a suction sound. Famous from Khoisan languages of southern Africa. Examples: [ʘ] (bilabial click), [ǀ] (dental click), [!] (palatal click).</p>
+        </li>
+      </ul>
+
+      <remark>
+        <title>Exotic Airstream Mechanisms</title>
+        <p>While English uses only pulmonic egressive airflow, languages like Xhosa (South Africa) employ multiple clicks—up to 20 different click consonants! These sounds, which seem exotic to English speakers, are completely natural and phonologically integrated into Khoisan languages.</p>
+      </remark>
+    </subsection>
+
+    <subsection xml:id="sec-vocal-folds">
+      <title>Voicing and the Vocal Folds</title>
+
+      <p><idx>voicing</idx><idx>vocal folds</idx>The vocal folds (vocal cords) are two membranes in the larynx that vibrate when air passes through, producing voicing. The frequency of vibration determines <term>pitch</term>, while the presence or absence of vibration distinguishes <term>voicing</term> (phonologically important).</p>
+
+      <definition xml:id="def-voiced-voiceless">
+        <statement>
+          <p><term>Voiced sounds</term> are produced with vocal fold vibration ([b], [d], [v], [z], all vowels).</p>
+          <p><term>Voiceless sounds</term> are produced without vibration ([p], [t], [f], [s]).</p>
+        </statement>
+      </definition>
+
+      <p>You can feel voicing by placing your fingers on your throat while producing [zzzzz] (voiced) versus [ssssss] (voiceless). The vibration is palpable for [z] but absent for [s].</p>
+
+      <p><idx>aspiration</idx><term>Aspiration</term> refers to a puff of air released after a voiceless stop. In English, [p] in <foreign>pin</foreign> is aspirated [pʰ], while [p] in <foreign>spin</foreign> is unaspirated [p]. Phonetically distinct, but phonologically the same in English (both are the phoneme /p/). In Mandarin Chinese, however, aspiration is phonologically significant: [pʰ] (aspirated p) and [p] (unaspirated p) represent different phonemes.</p>
+    </subsection>
+
+    <subsection xml:id="sec-articulation-location">
+      <title>Place of Articulation</title>
+
+      <p><idx>place of articulation</idx>Place of articulation describes where in the vocal tract a sound is produced. Major places include:</p>
+
+      <ul>
+        <li><title>Bilabial</title>
+          <p>Both lips come together: [p], [b], [m]</p>
+        </li>
+        <li><title>Labiodental</title>
+          <p>Lower lip and upper teeth: [f], [v]</p>
+        </li>
+        <li><title>Dental</title>
+          <p>Tongue tip against upper teeth: [θ] (as in <foreign>think</foreign>), [ð] (as in <foreign>this</foreign>). Not found in all languages—many use alveolars instead.</p>
+        </li>
+        <li><title>Alveolar</title>
+          <p>Tongue tip against the alveolar ridge (behind upper teeth): [t], [d], [n], [s], [z], [l], [r]</p>
+        </li>
+        <li><title>Postalveolar / Palato-alveolar</title>
+          <p>Tongue blade against area just behind alveolar ridge: [ʃ] (as in <foreign>ship</foreign>), [ʒ] (as in <foreign>measure</foreign>), [tʃ] (as in <foreign>church</foreign>), [dʒ] (as in <foreign>judge</foreign>)</p>
+        </li>
+        <li><title>Retroflex</title>
+          <p><idx>retroflex</idx>Tongue tip curled back: [ɻ] (American English <foreign>r</foreign>), [ʈ], [ɖ]. Common in Arabic, Mandarin, and Indian languages.</p>
+        </li>
+        <li><title>Palatal</title>
+          <p>Tongue body against hard palate: [j] (as in <foreign>yes</foreign>), [ɲ] (as in Spanish <foreign>niño</foreign>)</p>
+        </li>
+        <li><title>Velar</title>
+          <p>Tongue body against soft palate (velum): [k], [g], [ŋ] (as in <foreign>sing</foreign>)</p>
+        </li>
+        <li><title>Uvular</title>
+          <p><idx>uvular consonants</idx>Back of tongue against uvula: [q] (as in Arabic), [χ], [ʁ] (as in French). Rare in English.</p>
+        </li>
+        <li><title>Pharyngeal</title>
+          <p>Deep in the throat: [ʕ], [ħ]. Found in Arabic and Hebrew.</p>
+        </li>
+        <li><title>Glottal</title>
+          <p>At the vocal folds: [ʔ] (glottal stop, as in German <foreign>beachten</foreign>), [h]</p>
+        </li>
+      </ul>
+    </subsection>
+
+    <subsection xml:id="sec-articulation-manner">
+      <title>Manner of Articulation</title>
+
+      <p><idx>manner of articulation</idx>Manner of articulation describes how air is modified as it passes through the vocal tract:</p>
+
+      <ul>
+        <li><title>Stops (Plosives)</title>
+          <p>Complete closure of the vocal tract: [p], [b], [t], [d], [k], [g], [ʔ]</p>
+        </li>
+        <li><title>Fricatives</title>
+          <p>Air flows through a narrow channel, creating friction/turbulence: [f], [v], [θ], [ð], [s], [z], [ʃ], [ʒ], [x], [ɣ], [h]</p>
+        </li>
+        <li><title>Affricates</title>
+          <p>Stop followed immediately by a fricative with the same place of articulation: [tʃ] (as in <foreign>church</foreign>), [dʒ] (as in <foreign>judge</foreign>), [ts] (as in German <foreign>Zahn</foreign>)</p>
+        </li>
+        <li><title>Nasals</title>
+          <p>Oral closure with air flowing through the nose: [m], [n], [ŋ]. All nasals are voiced.</p>
+        </li>
+        <li><title>Approximants (Glides)</title>
+          <p>Tongue approaches but doesn't block: [w] (bilabial-velar), [j] (palatal), [ɥ] (labio-palatal, as in French <foreign>lui</foreign>)</p>
+        </li>
+        <li><title>Liquids</title>
+          <p>Characterized by tongue position with partial obstruction: [l] (lateral), [r] (rhotic/approximant)</p>
+        </li>
+      </ul>
+
+      <p>Different languages employ different subsets of these manners. English uses stops, fricatives, affricates, nasals, approximants, and liquids. Mandarin Chinese, by contrast, lacks fricatives like [v], [θ], or [ð].</p>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-consonant-inventory">
+    <title>Consonant Inventories Across Languages</title>
+
+    <introduction>
+      <p>The world's languages employ vastly different sets of consonants. While English has about 24 consonant phonemes, languages range from Hawaiian (with 8) to Taa (a Khoisan language with over 100).</p>
+    </introduction>
+
+    <subsection xml:id="sec-english-consonants">
+      <title>English Consonant Inventory</title>
+
+      <p>English has approximately 24 consonant phonemes. Here's the system organized by place and manner:</p>
+
+      <table xml:id="tbl-english-consonants">
+        <title>English Consonant Phonemes</title>
+        <tabular halign="center">
+          <col halign="left" />
+          <col />
+          <col />
+          <col />
+          <col />
+          <col />
+          <col />
+          <row header="yes" bottom="medium">
+            <cell>Manner</cell>
+            <cell>Bilabial</cell>
+            <cell>Labio-dental</cell>
+            <cell>Alveolar</cell>
+            <cell>Palato-alv.</cell>
+            <cell>Velar</cell>
+            <cell>Glottal</cell>
+          </row>
+          <row>
+            <cell>Stops</cell>
+            <cell>p b</cell>
+            <cell></cell>
+            <cell>t d</cell>
+            <cell></cell>
+            <cell>k g</cell>
+            <cell>ʔ</cell>
+          </row>
+          <row>
+            <cell>Fricatives</cell>
+            <cell></cell>
+            <cell>f v</cell>
+            <cell>s z</cell>
+            <cell>ʃ ʒ</cell>
+            <cell></cell>
+            <cell>h</cell>
+          </row>
+          <row>
+            <cell>Affricates</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell>tʃ dʒ</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>Nasals</cell>
+            <cell>m</cell>
+            <cell></cell>
+            <cell>n</cell>
+            <cell></cell>
+            <cell>ŋ</cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>Approximants</cell>
+            <cell>w</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell>j</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell>Liquids</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell>l r</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </table>
+
+      <p>(All consonants above are voiced except: p, t, k, f, s, ʃ, tʃ, h)</p>
+    </subsection>
+
+    <subsection xml:id="sec-cross-linguistic-consonants">
+      <title>Consonant Variation Across Languages</title>
+
+      <p>Languages vary dramatically in which consonants they include:</p>
+
+      <ul>
+        <li><title>Hawaiian</title>
+          <p>One of the simplest inventories: [p], [k], [ʔ], [m], [n], [w], [l], [h] (8 consonants). Hawaiian phonotactics also prevents most consonant clusters.</p>
+        </li>
+        <li><title>Spanish</title>
+          <p>Approximately 19 consonants, including the interdental fricative [θ] (in Spain) and the palatal lateral [ʎ].</p>
+        </li>
+        <li><title>Russian</title>
+          <p>Approximately 36 consonants (counting palatalized and non-palatalized pairs as distinct). Russian systematically contrasts palatalized vs. non-palatalized consonants: [l] vs. [lʲ], [n] vs. [nʲ].</p>
+        </li>
+        <li><title>!Xóõ (Khoisan language)</title>
+          <p>A Khoisan language with approximately 123 consonant phonemes, including many clicks, ejectives, and other exotic articulations.</p>
+        </li>
+      </ul>
+
+      <remark>
+        <title>Rare Consonants in English</title>
+        <p>Many consonants found in the world's languages are absent from English: the interdental fricatives [θ] and [ð] are rare (found mainly in English and Icelandic); uvular consonants [q] and [χ] appear in Qatari Arabic and German; pharyngeal consonants [ʕ] and [ħ] appear in Arabic and Hebrew; and clicks are used phonemically only in Khoisan languages and a few Bantu languages of southern Africa.</p>
+      </remark>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-vowel-space">
+    <title>The Vowel Space: Vowel Quality and the IPA Vowel Trapezoid</title>
+
+    <introduction>
+      <p>Vowels are characterized by the position of the tongue and lips, not by obstruction of airflow. The <term>vowel space</term> or <term>vowel trapezoid</term> is a two-dimensional diagram showing vowel quality based on tongue position.</p>
+    </introduction>
+
+    <subsection xml:id="sec-vowel-dimensions">
+      <title>Vowel Dimensions: Height, Backness, and Rounding</title>
+
+      <p>Vowels vary along three main dimensions:</p>
+
+      <definition xml:id="def-vowel-height">
+        <statement>
+          <p><term>Height</term> (vertical axis): How high is the tongue in the mouth?</p>
+          <ul>
+            <li>Close (high): [i], [u], [y]</li>
+            <li>Close-mid: [e], [o]</li>
+            <li>Open-mid: [ɛ], [ɔ]</li>
+            <li>Open (low): [a], [ɑ], [ɒ]</li>
+          </ul>
+        </statement>
+      </definition>
+
+      <definition xml:id="def-vowel-backness">
+        <statement>
+          <p><term>Backness</term> (horizontal axis): Is the tongue toward the front, center, or back of the mouth?</p>
+          <ul>
+            <li>Front: [i], [e], [ɛ], [æ]</li>
+            <li>Central: [ə], [ʌ], [ɜ]</li>
+            <li>Back: [u], [o], [ɔ], [ɑ]</li>
+          </ul>
+        </statement>
+      </definition>
+
+      <definition xml:id="def-vowel-rounding">
+        <statement>
+          <p><term>Rounding</term>: Are the lips rounded or unrounded (spread)?</p>
+          <ul>
+            <li>Unrounded: [i], [e], [ɛ], [a], [ɑ], [ʌ]</li>
+            <li>Rounded: [u], [o], [ɔ], [y] (French <foreign>tu</foreign>), [ø] (French <foreign>peu</foreign>)</li>
+          </ul>
+        </statement>
+      </definition>
+    </subsection>
+
+    <subsection xml:id="sec-vowel-trapezoid">
+      <title>The IPA Vowel Trapezoid</title>
+
+      <p>The IPA organizes vowels in a trapezoid (approximating the actual vowel space of the mouth). The axes represent height (vertical) and front-to-back position (horizontal):</p>
+
+      <ul>
+        <li><strong>Front vowels:</strong> [i], [e], [ɛ], [æ]</li>
+        <li><strong>Central vowels:</strong> [ə], [ʌ], [ɜ]</li>
+        <li><strong>Back vowels:</strong> [u], [o], [ɔ], [ɑ]</li>
+      </ul>
+
+      <p>The trapezoid shape reflects anatomical reality: the front of the mouth is narrower, so front vowels occupy less space; the back is wider, so back vowels can vary more.</p>
+
+      <example xml:id="ex-vowel-systems">
+        <title>Vowel Inventories of Different Languages</title>
+        <statement>
+          <p><strong>Spanish:</strong> 5 vowels [a], [e], [i], [o], [u] - a simple, symmetric system</p>
+          <p><strong>English (American):</strong> 14-16 vowels including monophthongs and diphthongs [i], [ɪ], [e], [ɛ], [æ], [ʌ], [ɑ], [ɔ], [o], [ʊ], [u], plus diphthongs [aɪ], [aʊ], [ɔɪ], etc.</p>
+          <p><strong>French:</strong> 12-16 vowels including rounded front vowels [y] (tu), [ø] (peu), [œ] (peur) - phonetically distinct from English through extensive rounding</p>
+          <p><strong>Swedish:</strong> 9 vowel phonemes with distinct length: [iː] vs. [ɪ] (long vs. short)</p>
+        </statement>
+      </example>
+    </subsection>
+
+    <subsection xml:id="sec-secondary-features">
+      <title>Secondary Vowel Features: Length, Nasalization, and Tone</title>
+
+      <p>Beyond the three primary dimensions, vowels vary in other ways:</p>
+
+      <ul>
+        <li><title>Length</title>
+          <p><idx>vowel length</idx>Some languages distinguish short from long vowels phonemically. German <foreign>Kamm</foreign> (comb) with short [a] vs. <foreign>Kahn</foreign> (boat) with long [aː]. Japanese also uses vowel length: [obasan] (aunt) vs. [obaasan] (grandmother).</p>
+        </li>
+        <li><title>Nasalization</title>
+          <p><idx>nasalization</idx>Air can flow through the nose while a vowel is articulated, creating a nasal vowel. French distinguishes oral from nasal vowels: [se] (is) vs. [sɛ̃] (are—100). Portuguese and Polish also use nasal vowels.</p>
+        </li>
+        <li><title>Tone</title>
+          <p><idx>lexical tone</idx>In tonal languages, vowel pitch is phonologically meaningful. Mandarin Chinese has four tones: [ma] (mother, high level tone) vs. [má] (hemp, rising tone) vs. [mǎ] (horse, falling-rising tone) vs. [mà] (scold, falling tone).</p>
+        </li>
+      </ul>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-prosody">
+    <title>Prosody: Stress, Rhythm, and Intonation</title>
+    <idx>prosody</idx>
+
+    <introduction>
+      <p>Beyond individual sounds, languages use larger-scale patterns of rhythm and pitch called <term>prosody</term> to convey meaning and structure.</p>
+    </introduction>
+
+    <subsection xml:id="sec-stress">
+      <title>Stress</title>
+
+      <p><idx>stress</idx><term>Stress</term> is phonetic prominence given to certain syllables. In English, stress is often phonologically contrastive:</p>
+
+      <ul>
+        <li>PRE-sent (noun) vs. pre-SENT (verb)</li>
+        <li>RECord (noun) vs. reCORD (verb)</li>
+        <li>IM-port (noun) vs. im-PORT (verb)</li>
+      </ul>
+
+      <p>Stress is realized through increased loudness, higher pitch, and longer duration. English is considered a <term>stress-timed</term> language—the time between stressed syllables tends to be regular.</p>
+
+      <remark>
+        <title>Stress Typology</title>
+        <p>Languages differ in stress patterns. Some languages are <em>stress-timed</em> (English, German, Russian), where the interval between stresses is roughly constant. Others are <em>syllable-timed</em> (Spanish, Italian, French), where each syllable takes roughly equal time. Still others are <em>mora-timed</em> (Japanese), counting morae (phonological units composed of a consonant and vowel, or a nasal/geminate) rather than full syllables.</p>
+      </remark>
+    </subsection>
+
+    <subsection xml:id="sec-intonation">
+      <title>Intonation</title>
+
+      <p><idx>intonation</idx><term>Intonation</term> refers to pitch patterns over longer stretches (phrases or sentences). English uses intonation to distinguish statement from question:</p>
+
+      <ul>
+        <li><q>You're coming.</q> (falling pitch—statement)</li>
+        <li><q>You're coming?</q> (rising pitch—question)</li>
+      </ul>
+
+      <p>Intonation can also convey emotion and emphasis. The same sentence said with different intonation contours can sound statement, question, excited, or sarcastic.</p>
+    </subsection>
+
+    <subsection xml:id="sec-tone">
+      <title>Tone and Tonal Languages</title>
+
+      <p><idx>tone</idx><idx>tonal languages</idx><term>Tone</term> is phonologically significant pitch variation within a single word. Tonal languages (about 70% of the world's languages) use tone to distinguish word meanings.</p>
+
+      <p><strong>Mandarin Chinese (4 tones):</strong></p>
+      <ul>
+        <li>ma (high level tone, ˥) = mother</li>
+        <li>má (rising tone, ˧˥) = hemp</li>
+        <li>mǎ (low dipping tone, ˨˩˧) = horse</li>
+        <li>mà (falling tone, ˥˩) = scold</li>
+      </ul>
+
+      <p><strong>Yoruba (3 tones):</strong></p>
+      <ul>
+        <li>bá (high) = to meet</li>
+        <li>ba (mid) = to happen</li>
+        <li>bà (low) = to become pregnant</li>
+      </ul>
+
+      <p>Tone is distinct from intonation: intonation applies over the whole utterance and is often not phonological, while tone applies within words and is distinctive. However, languages can have both—Mandarin uses tone within words and intonation at the phrase level.</p>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-ipa-system">
+    <title>The International Phonetic Alphabet (IPA): A Universal Transcription System</title>
+    <idx>International Phonetic Alphabet</idx>
+
+    <introduction>
+      <p>The International Phonetic Alphabet (IPA) is a system of symbols developed by phoneticians to represent all sounds used in the world's languages. Unlike standard orthographies (which vary by language), the IPA is universal and language-independent.</p>
+    </introduction>
+
+    <subsection xml:id="sec-ipa-principles">
+      <title>Principles of IPA Transcription</title>
+
+      <p>The IPA follows key principles:</p>
+
+      <ul>
+        <li>Each symbol represents a single sound (with few exceptions)</li>
+        <li>Each sound has only one symbol</li>
+        <li>Symbols are used consistently across all languages</li>
+        <li>Diacritics (marks added to symbols) indicate modifications (voicelessness, aspiration, nasalization, etc.)</li>
+      </ul>
+
+      <p>IPA symbols are enclosed in square brackets [like this] for <term>narrow</term> (detailed) transcription that captures fine phonetic distinctions, or in forward slashes /like this/ for <term>broad</term> (phonemic) transcription that shows language-specific meaning-distinguishing units.</p>
+
+      <example xml:id="ex-ipa-narrow-broad">
+        <title>Narrow vs. Broad IPA Transcription</title>
+        <statement>
+          <p><strong>English <foreign>pin</foreign> and <foreign>spin</foreign>:</strong></p>
+          <ul>
+            <li>Narrow: [pʰɪn] vs. [spɪn] (showing aspiration difference)</li>
+            <li>Broad: /pɪn/ vs. /spɪn/ (grouping aspirated and unaspirated [p] as one phoneme /p/)</li>
+          </ul>
+        </statement>
+      </example>
+    </subsection>
+
+    <subsection xml:id="sec-diacritics">
+      <title>Common IPA Diacritics</title>
+
+      <p>Diacritics modify base symbols to show variations:</p>
+
+      <ul>
+        <li>[t̪] - dental (vs. alveolar) [t]</li>
+        <li>[pʰ] - aspirated [p]</li>
+        <li>[n̥] - voiceless [n]</li>
+        <li>[ẽ] - nasalized [e]</li>
+        <li>[tʼ] - ejective [t]</li>
+        <li>[l̩] - syllabic [l]</li>
+        <li>[ɡ̚] - unreleased (no audible release) [g]</li>
+      </ul>
+
+      <p>Diacritics allow for very fine-grained transcription while maintaining the principle that each base symbol represents a related set of sounds.</p>
+    </subsection>
+
+    <subsection xml:id="sec-ipa-advantages">
+      <title>Why IPA Matters for Polyglot Study</title>
+
+      <p>The IPA is essential for comparative linguistics because:</p>
+
+      <ul>
+        <li><strong>Language-independent:</strong> Different alphabets represent the same sound identically in IPA (English [t], French [t], Arabic [t], Mandarin [t] are all transcribed the same way).</li>
+        <li><strong>Accurate transcription:</strong> IPA captures subtle distinctions that standard orthographies miss (e.g., English spelling doesn't distinguish [pʰ] from [p]).</li>
+        <li><strong>Cross-linguistic comparison:</strong> We can directly compare consonants, vowels, and phonotactic patterns across completely unrelated languages.</li>
+        <li><strong>Phonetic detail:</strong> Narrow IPA transcription helps us understand language-specific pronunciation, while broad transcription helps us identify which sounds are phonologically significant.</li>
+      </ul>
+
+      <remark>
+        <title>Limitations of IPA</title>
+        <p>While comprehensive, the IPA has limitations. It cannot capture all suprasegmental features (like exact pitch movements in tonal languages), nor can it represent the full acoustic spectrum (like voice quality variations). Nevertheless, it remains the most useful tool for transcribing and comparing the world's languages.</p>
+      </remark>
+    </subsection>
+  </section>
+
+  <conclusion>
+    <title>Chapter Summary</title>
+    <p>This chapter explored the physical and perceptual properties of speech sounds:</p>
+    <ul>
+      <li><strong>Phonetics</strong> examines how sounds are produced and perceived anatomically and acoustically.</li>
+      <li><strong>Consonants</strong> are characterized by place and manner of articulation, voicing, and airstream mechanism.</li>
+      <li><strong>Vowels</strong> vary by tongue height, backness, and lip rounding, creating the vowel space.</li>
+      <li><strong>Prosody</strong> includes stress, rhythm, intonation, and tone—larger-scale patterns that convey meaning.</li>
+      <li><strong>The IPA</strong> provides a universal, language-independent system for transcribing all human speech sounds.</li>
+    </ul>
+    <p>Armed with these tools, polyglot linguists can now transcribe and compare the sound systems of any language, revealing universal principles and fascinating diversity in how human languages encode meaning through sound.</p>
+  </conclusion>
+
+  <exercises xml:id="sec-ch3-exercises">
+    <title>Exercises</title>
+
+    <exercise xml:id="ex-ch3-place-manner">
+      <title>Analyzing Consonant Features</title>
+      <statement>
+        <p>For each of the following English consonants, identify the place of articulation, manner of articulation, and voicing:</p>
+        <ol>
+          <li>[p]</li>
+          <li>[ʃ]</li>
+          <li>[m]</li>
+          <li>[z]</li>
+          <li>[tʃ]</li>
+        </ol>
+      </statement>
+      <hint>
+        <p>Consider: Where in your mouth do you articulate the sound? How is airflow modified? Do your vocal folds vibrate?</p>
+      </hint>
+    </exercise>
+
+    <exercise xml:id="ex-ch3-vowel-space">
+      <title>Plotting Vowels in the Vowel Space</title>
+      <statement>
+        <p>Using the vowel trapezoid, plot the approximate tongue position for the following vowels and identify their height, backness, and rounding:</p>
+        <ol>
+          <li>[i]</li>
+          <li>[ɑ]</li>
+          <li>[u]</li>
+          <li>[ə]</li>
+          <li>[ɔ]</li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-ch3-tone">
+      <title>Tone vs. Intonation</title>
+      <statement>
+        <p>Explain the difference between tone (as found in tonal languages like Mandarin Chinese) and intonation (as used in English). Give examples from each type of language.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-ch3-ipa-transcription">
+      <title>IPA Transcription Practice</title>
+      <statement>
+        <p>Transcribe the following English words in narrow IPA, paying attention to aspiration, vowel quality, and any other phonetic details:</p>
+        <ol>
+          <li>pit</li>
+          <li>spit</li>
+          <li>cat</li>
+          <li>bat</li>
+          <li>think</li>
+        </ol>
+      </statement>
+      <hint>
+        <p>Remember: voiceless stops at the beginning of stressed syllables are aspirated in English ([pʰ], [tʰ], [kʰ]), but they're not aspirated after [s].</p>
+      </hint>
+    </exercise>
+
+  </exercises>
+
+</chapter>

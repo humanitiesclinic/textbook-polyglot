@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-foundations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Universal Language Principles</title>
+  <subtitle>Foundations for Comparative Linguistics</subtitle>
+
+  <introduction>
+    <p><idx>universal grammar</idx>Despite the remarkable diversity of human languages, linguists have identified certain universal principles that appear in all human languages. This chapter establishes the foundational concepts you need to understand linguistic structures: phonology, morphology, and syntax. We will explore what these three domains cover and why they matter for polyglot study.</p>
+  </introduction>
+
+  <section xml:id="sec-what-is-language">
+    <title>What is Language?</title>
+
+    <p><idx>language definition</idx>Language is a system of communication that uses discrete sounds (or signs, in sign languages) arranged according to grammatical rules to convey meaning. Every human society possesses language, and every language is equally complex and sophisticated, despite differences in how they organize sounds and meaning.</p>
+
+    <p>The key features of human language are:</p>
+    <ul>
+      <li><title>Arbitrariness</title>
+        <p>The relationship between a word's form and its meaning is arbitrary. There is nothing inherently <q>dog-like</q> about the English word <foreign>dog</foreign>, just as the Spanish <foreign>perro</foreign> or Russian <foreign>собака</foreign> (sobaka) bear no intrinsic connection to the animal they name.</p>
+      </li>
+      <li><title>Duality of Patterning</title>
+        <p>Language operates on two levels: sounds (or letters) that are meaningless in themselves combine according to rules to form meaningful units (words and sentences).</p>
+      </li>
+      <li><title>Productivity</title>
+        <p>Speakers can create and understand infinitely many new sentences using a finite set of rules and vocabulary—a property called <term>generative capacity</term><idx>generative capacity</idx>.</p>
+      </li>
+      <li><title>Displacement</title>
+        <p>Language allows us to discuss things not present in our immediate environment, including past events, future plans, and hypothetical scenarios.</p>
+      </li>
+      <li><title>Cultural Transmission</title>
+        <p>Language is learned through social interaction and cultural participation, not genetically programmed (though the capacity for language is innate).</p>
+      </li>
+    </ul>
+  </section>
+
+  <section xml:id="sec-phonology">
+    <title>Phonology: The Sound System</title>
+    <idx>phonology</idx>
+
+    <introduction>
+      <p>Phonology<idx><h>phonology</h><h>definition</h></idx> is the study of how sounds function in a language. Unlike phonetics (the study of how sounds are physically produced and perceived), phonology examines how sounds are organized and used meaningfully.</p>
+    </introduction>
+
+    <subsection xml:id="sec-phoneme">
+      <title>Phonemes and Allophones</title>
+
+      <p><idx>phoneme</idx>A <term>phoneme</term> is the smallest unit of sound that makes a difference in meaning. For example, in English, the sounds [p] and [b] are different phonemes because changing one to the other changes the meaning: [pɪn] (pin) versus [bɪn] (bin).</p>
+
+      <p>Not every pronunciation difference signals a phoneme difference. <idx>allophone</idx><term>Allophones</term> are variant pronunciations of the same phoneme that do not change meaning. English speakers pronounce the [l] in <foreign>light</foreign> differently from the [l] in <foreign>milk</foreign> (one is <q>clear l,</q> the other <q>dark l</q>), but these differences don't matter—[laɪt] and [mɪlk] are understood as containing the same phoneme /l/.</p>
+
+      <example xml:id="ex-english-vowels">
+        <title>English Vowel Phonemes</title>
+        <statement>
+          <p>English has approximately 14-20 vowel phonemes (depending on dialect). Here are some key contrastive pairs:</p>
+          <ul>
+            <li>[i] as in <foreign>fleece</foreign> vs. [ɪ] as in <foreign>kit</foreign></li>
+            <li>[e] as in <foreign>dress</foreign> vs. [æ] as in <foreign>trap</foreign></li>
+            <li>[ɑ] as in <foreign>lot</foreign> vs. [ɔ] as in <foreign>thought</foreign></li>
+            <li>[u] as in <foreign>goose</foreign> vs. [ʊ] as in <foreign>foot</foreign></li>
+          </ul>
+        </statement>
+      </example>
+
+      <p>Different languages have different inventories of phonemes. Spanish, for example, has fewer vowel phonemes than English (typically 5), while Khoekhoe (a language spoken in southern Africa) has more than 100 phonemic consonants.</p>
+    </subsection>
+
+    <subsection xml:id="sec-distinctive-features">
+      <title>Distinctive Features</title>
+
+      <p><idx>distinctive features</idx>Phonemes themselves can be broken down into <term>distinctive features</term>—properties that differentiate sounds. Common features include:</p>
+
+      <ul>
+        <li><title>Voicing</title>
+          <p>Whether the vocal cords vibrate ([b] is voiced; [p] is voiceless)</p>
+        </li>
+        <li><title>Place of Articulation</title>
+          <p>Where in the vocal tract the obstruction occurs (bilabial [p], alveolar [t], velar [k])</p>
+        </li>
+        <li><title>Manner of Articulation</title>
+          <p>How airflow is modified (stops, fricatives, nasals, approximants)</p>
+        </li>
+        <li><title>Nasality</title>
+          <p>Whether air flows through the nose ([m] is nasal; [b] is oral)</p>
+        </li>
+      </ul>
+
+      <remark>
+        <title>Why Distinctive Features Matter</title>
+        <p>Distinctive features allow us to see patterns across languages. For instance, many languages have constraints on which sound combinations are permitted. English allows [str] at the beginning of words (string, strap) but not [zdr]. This is because [s] and [z] share features, but differ in voicing, and English doesn't allow a voiceless fricative before a voiced stop in word-initial position.</p>
+      </remark>
+    </subsection>
+
+    <subsection xml:id="sec-phonotactics">
+      <title>Phonotactics: Sound Combination Rules</title>
+
+      <p><idx>phonotactics</idx>Every language has rules about which sounds can occur together. These rules, called <term>phonotactic constraints</term>, differ across languages:</p>
+
+      <ul>
+        <li>English allows [ng] at the end of words (sing, ring) but not at the beginning: *[ngɪp] is not a valid English word.</li>
+        <li>Mandarin Chinese does not allow consonant clusters at the beginning of words, so foreign words like <foreign>street</foreign> must be adapted (街 jiē includes a vowel).</li>
+        <li>Hawaiian has very few allowed consonant clusters, making the language's phonotactics quite restrictive.</li>
+      </ul>
+
+      <p>Phonotactic constraints help explain why certain words sound <q>un-English</q> even if they contain only English sounds. The word [zɡɛt] (containing perfectly normal English sounds) sounds strange to English speakers because [zg] is not an allowed combination in English phonotactics.</p>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-morphology">
+    <title>Morphology: Words and Word Structure</title>
+    <idx>morphology</idx>
+
+    <introduction>
+      <p>Morphology<idx><h>morphology</h><h>definition</h></idx> examines how meaningful units smaller than words (morphemes) combine to form words, and how words are formed and modified.</p>
+    </introduction>
+
+    <subsection xml:id="sec-morpheme">
+      <title>Morphemes: Minimal Meaningful Units</title>
+
+      <p><idx>morpheme</idx>A <term>morpheme</term> is the smallest unit of language that carries meaning. Morphemes may be:</p>
+
+      <definition xml:id="def-free-bound">
+        <statement>
+          <p><term>Free morphemes</term> can stand alone as words (cat, run, happy). <term>Bound morphemes</term> must attach to other morphemes (the prefix <foreign>un-</foreign>, the suffix <foreign>-ed</foreign>, the plural <foreign>-s</foreign>).</p>
+        </statement>
+      </definition>
+
+      <example xml:id="ex-morpheme-decomposition">
+        <title>Decomposing Words into Morphemes</title>
+        <statement>
+          <p>The word <foreign>unhappiness</foreign> contains four morphemes:</p>
+          <ul>
+            <li><foreign>un-</foreign> (prefix, bound)</li>
+            <li><foreign>happy</foreign> (root, free)</li>
+            <li><foreign>-ness</foreign> (suffix, bound)</li>
+          </ul>
+          <p>The word <foreign>dogs</foreign> contains two morphemes: <foreign>dog</foreign> (root, free) and <foreign>-s</foreign> (plural, bound).</p>
+        </statement>
+      </example>
+    </subsection>
+
+    <subsection xml:id="sec-word-formation">
+      <title>Word Formation Processes</title>
+
+      <p>Languages employ different strategies to form new words:</p>
+
+      <ul>
+        <li><title>Affixation</title>
+          <p>Adding prefixes or suffixes: English <foreign>un-</foreign> + <foreign>happy</foreign> = <foreign>unhappy</foreign>; <foreign>teach</foreign> + <foreign>-er</foreign> = <foreign>teacher</foreign></p>
+        </li>
+        <li><title>Compounding</title>
+          <p>Combining two free morphemes: English <foreign>blackboard</foreign>, German <foreign>Donaudampfschifffahrtsgesellschaftskapitän</foreign> (Danube steamship company captain—note German's preference for long compounds)</p>
+        </li>
+        <li><title>Derivation</title>
+          <p>Using morphemes to create new word forms with different meanings: <foreign>happy</foreign> → <foreign>happiness</foreign>, <foreign>modern</foreign> → <foreign>modernize</foreign></p>
+        </li>
+        <li><title>Inflection</title>
+          <p>Modifying words for grammatical function: English <foreign>walk</foreign> → <foreign>walks</foreign>, <foreign>walked</foreign>, <foreign>walking</foreign></p>
+        </li>
+        <li><title>Conversion</title>
+          <p>Changing a word's part of speech without adding morphemes: English <foreign>to google</foreign> (verb from noun), <foreign>a run</foreign> (noun from verb)</p>
+        </li>
+      </ul>
+
+      <remark>
+        <title>Agglutination vs. Fusion</title>
+        <p><idx>agglutination</idx><idx>fusion</idx>Some languages, like Turkish and Finnish, are <em>agglutinative</em>, meaning morphemes line up visibly in sequence. Others, like English and Spanish, show <em>fusion</em>, where morpheme boundaries blur through sound changes. Turkish <foreign>evlerimden</foreign> (from our houses) shows clear morpheme boundaries: ev-ler-im-den (house-plural-our-from), while English <foreign>went</foreign> fuses the past tense morpheme obscurely with the root.</p>
+      </remark>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-syntax">
+    <title>Syntax: Sentence Structure</title>
+    <idx>syntax</idx>
+
+    <introduction>
+      <p>Syntax<idx><h>syntax</h><h>definition</h></idx> is the study of how words combine into larger structures (phrases and sentences) and the rules governing their arrangement.</p>
+    </introduction>
+
+    <subsection xml:id="sec-word-order">
+      <title>Word Order</title>
+
+      <p>The most obvious syntactic difference across languages is word order. While all languages can express basic concepts like Agent, Action, and Patient/Object, they order these elements differently:</p>
+
+      <table xml:id="tbl-word-order">
+        <title>Basic Word Order in Six Languages</title>
+        <tabular>
+          <col halign="left" />
+          <col halign="center" />
+          <col halign="left" />
+          <row header="yes" bottom="medium">
+            <cell>Language</cell>
+            <cell>Order</cell>
+            <cell>Example: <q>The child eats the apple</q></cell>
+          </row>
+          <row>
+            <cell>English</cell>
+            <cell>SVO</cell>
+            <cell>The child eats the apple</cell>
+          </row>
+          <row>
+            <cell>Spanish</cell>
+            <cell>SVO</cell>
+            <cell>El niño come la manzana</cell>
+          </row>
+          <row>
+            <cell>German</cell>
+            <cell>SVO/SOV*</cell>
+            <cell>Das Kind isst den Apfel / Das Kind den Apfel isst</cell>
+          </row>
+          <row>
+            <cell>Turkish</cell>
+            <cell>SOV</cell>
+            <cell>Çocuk elmayı yedi</cell>
+          </row>
+          <row>
+            <cell>Irish</cell>
+            <cell>VSO</cell>
+            <cell>Ithíonn an páiste an úbhall</cell>
+          </row>
+          <row>
+            <cell>Mandarin Chinese</cell>
+            <cell>SVO</cell>
+            <cell>孩子吃苹果 (háizi chī píngguǒ)</cell>
+          </row>
+        </tabular>
+      </table>
+
+      <p>*German shows both patterns: SVO in main clauses but SOV in subordinate clauses.</p>
+
+      <remark>
+        <title>Word Order Typology</title>
+        <p><idx>word order typology</idx>Linguist Joseph Greenberg demonstrated that word order is not random. Languages that place the Object after the Verb (SVO, VSO) tend to have prepositions (<foreign>in the house</foreign>), while languages that place the Object before the Verb (SOV) tend to have postpositions (<foreign>the house in</foreign>). These correlations suggest deep structural principles organizing human language.</p>
+      </remark>
+    </subsection>
+
+    <subsection xml:id="sec-agreement">
+      <title>Agreement and Government</title>
+
+      <p>Many languages require agreement between words—a grammatical coordination where one word's form depends on another's properties.</p>
+
+      <example xml:id="ex-spanish-agreement">
+        <title>Spanish Noun-Adjective Agreement</title>
+        <statement>
+          <p>In Spanish, adjectives agree with nouns in gender and number:</p>
+          <ul>
+            <li><foreign>el libro rojo</foreign> (the red book—masculine singular)</li>
+            <li><foreign>la casa roja</foreign> (the red house—feminine singular)</li>
+            <li><foreign>los libros rojos</foreign> (the red books—masculine plural)</li>
+            <li><foreign>las casas rojas</foreign> (the red houses—feminine plural)</li>
+          </ul>
+          <p>English, by contrast, has no agreement: <foreign>the red book</foreign> and <foreign>the red books</foreign> use the same adjective form.</p>
+        </statement>
+      </example>
+
+      <p>Agreement systems vary dramatically across languages. Some have rich agreement (Russian, Polish, German), others have minimal agreement (English, Mandarin Chinese), and others employ different strategies altogether (for example, classifier systems in many East Asian languages).</p>
+    </subsection>
+
+    <subsection xml:id="sec-recursion">
+      <title>Recursion and Embedding</title>
+
+      <p><idx>recursion</idx>One fundamental feature of all human languages is <term>recursion</term>: the ability to embed phrases and clauses within themselves infinitely. This allows for limitless complexity:</p>
+
+      <p><foreign>The book [that I read [while sitting [in the café [where I first met you]]]] is wonderful.</foreign></p>
+
+      <p>This recursive capability—the ability to create infinite complexity from finite means—is considered a core property of human language and may be unique to our species.</p>
+    </subsection>
+  </section>
+
+  <conclusion>
+    <title>Chapter Summary</title>
+    <p>In this chapter, we've established three fundamental levels of linguistic structure:</p>
+    <ul>
+      <li><term>Phonology</term> governs how sounds function meaningfully in a language.</li>
+      <li><term>Morphology</term> determines how meaningful units combine into words.</li>
+      <li><term>Syntax</term> specifies how words combine into sentences.</li>
+    </ul>
+    <p>Despite surface differences, all human languages employ these three levels of organization. In the following chapters, we'll see how different languages realize these principles through different writing systems (Chapter 2) and phonetic inventories (Chapter 3).</p>
+  </conclusion>
+
+  <exercises xml:id="sec-ch1-exercises">
+    <title>Exercises</title>
+
+    <exercise xml:id="ex-ch1-phoneme">
+      <title>Identifying Phonemes</title>
+      <statement>
+        <p>Consider the following English words. Which pairs contain phonemes that differ in voicing, place of articulation, or manner? Explain your answer:</p>
+        <ol>
+          <li>pin / bin</li>
+          <li>sit / set</li>
+          <li>tap / tab</li>
+          <li>sing / thing</li>
+        </ol>
+      </statement>
+      <hint>
+        <p>Voicing: Does the vocal cord vibrate? Place: Where does the air stop? Manner: How is the air blocked?</p>
+      </hint>
+    </exercise>
+
+    <exercise xml:id="ex-ch1-morpheme">
+      <title>Morpheme Decomposition</title>
+      <statement>
+        <p>Break the following words into their constituent morphemes. Identify which are free and which are bound:</p>
+        <ol>
+          <li>disagreement</li>
+          <li>reconstruction</li>
+          <li>unhappily</li>
+          <li>teachers</li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="ex-ch1-syntax">
+      <title>Word Order Variation</title>
+      <statement>
+        <p>Describe how you would express the sentence <q>I like coffee</q> in a SVO language (English), an SOV language (if you know one like Japanese or Turkish), and a VSO language (if familiar, like Irish or Tagalog). What other grammatical changes might be necessary beyond simple reordering?</p>
+      </statement>
+    </exercise>
+
+  </exercises>
+
+</chapter>
