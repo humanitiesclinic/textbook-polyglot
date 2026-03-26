@@ -8,6 +8,8 @@
 
 <publication>
   <common>
+    <!-- ISBN for EPUB publication -->
+    <identifier isbn="9781105471186" />
     <!-- Level at which are html files generated (chapter/section/etc): -->
     <chunking level="2" />
     <!-- Depth for table of contents.  0 means no TOC -->
