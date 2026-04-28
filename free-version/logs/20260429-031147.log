@@ -1,0 +1,45 @@
+WARNING : Project's CLI version could not be detected from `requirements.txt`.
+WARNING : Try `pretext update` to produce a compatible file.
+WARNING : Could not find a target 'html', but found a target 'web' with format='html'; using this target.
+INFO    : Building target web
+INFO    : XSL conversion of /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/free-version/source/main.ptx by /Users/user/.ptx/2.38.3/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : messages from the log for XSL processing:
+WARNING : * PTX:WARNING: The "default" style requested in publication/html/css is deprecated. Your book will be built with theme="default-modern". See the PreTeXt Guide for options for the newer HTML themes and their specification .
+INFO    : successful application of /Users/user/.ptx/2.38.3/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/free-version/output/web.
+INFO    : discovering source file's directory name: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/free-version/source
+INFO    : verifying and expanding input directory: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/free-version/source/../generated-assets
+INFO    : input directory expanded to absolute path: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/free-version/generated-assets
+INFO    : verifying and expanding input directory: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/free-version/source/../assets
+INFO    : input directory expanded to absolute path: /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/free-version/assets
+INFO    : XSL conversion of /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/free-version/source/main.ptx by /Users/user/.ptx/2.38.3/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /Users/user/.ptx/2.38.3/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.13.5
+INFO    : Downloading Runestone Services, version 7.13.5
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-default-modern
+INFO    : converting /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/free-version/source/main.ptx to HTML in /var/folders/1_/9xmrx8f56ds85pd6k3w44slh0000gn/T/ptx-6jywuzal
+INFO    : XSL conversion of /Users/user/Downloads/zzCODINGPROJECTS/__WARP/textbook-polyglot/free-version/source/main.ptx by /Users/user/.ptx/2.38.3/core/xsl/pretext-html.xsl
+INFO    : * PTX:INFO:   checking all deprecated elements.
+WARNING : * PTX:DEPRECATE: (2024-10-08) elements previously included in a "titlepage" element inside the "frontmatter" (author, editor, credit, date, and event) should now be placed in "frontmatter/bibinfo".  To ensure a title page is created, put only the empty element "titlepage-items" inside "titlepage".  Until you move these elements, we will try to honor your intent. (1 time)
+INFO    : *              located within: "frontmatter" (xml:id)
+INFO    : * --------------
+WARNING : * PTX:DEPRECATE: (2024-10-08) elements previously included in a "colophon" element inside the "frontmatter" (credit, copyright, edition, and website) should now be placed in "frontmatter/bibinfo". To produce a "colophon", include only the empty element "colophon-items" inside "colophon" Until you move these elements, we will try to honor your intent. (1 time)
+INFO    : *              located within: "colophon" (xml:id)
+WARNING : * PTX:DEPRECATE: (2024-07-12) the html/css/@style publication file entry has been deprecated for replacement by @theme. See the Guide for theme options.
+WARNING : * PTX:DEPRECATE: (2024-07-12) the html/css/@toc, @navbar, @shell, @knowls, and @banner publication entries have been deprecated. Use @theme to control html appearance. See the Guide for theme options.
+INFO    : successful application of /Users/user/.ptx/2.38.3/core/xsl/pretext-html.xsl
+WARNING : Failed to map codechat path to xml id; codechat will not work.
+INFO    : Removing temporary directory /var/folders/1_/9xmrx8f56ds85pd6k3w44slh0000gn/T/ptx-6jywuzal
+INFO    : Removing temporary directory /var/folders/1_/9xmrx8f56ds85pd6k3w44slh0000gn/T/ptx-obnm1w64
+INFO    : 
+Finished build for target web. Run `pretext view web` to see the results.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 
